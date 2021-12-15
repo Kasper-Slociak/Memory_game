@@ -1,0 +1,69 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: white;
+	font-family: Garamond;
+    font-size: 2.8rem;
+}
+h1
+{
+	font-size: 5rem;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing:5px;
+	margin-top:0rem;
+	margin-bottom:2rem;
+}
+.board
+{
+width:60rem;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+	
+}
+.card
+{
+	width: 9.6rem;
+	height: 11.6rem;
+	background-image:url(./card0.png);
+	background-size: 10rem 12rem;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	display: inline-block;
+	border: 0.4rem solid #51c8b2;
+	border-radius: 2rem;
+	margin:1.1rem;
+	cursor: pointer;
+	filter: brightness(70%);
+	opacity: 1;
+	transition: all .3s ease-in-out;
+}
+.card:hover
+{
+	filter: brightness(100%);
+	border: 0.4rem solid #e9b64a;
+}
+.score
+{
+	display: inline-block;
+	margin-right: 15rem;
+}
+.turn
+{
+	display: inline-block;
+}
+.cardV
+{
+	border: 0.4rem solid #e9b64a;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+.end
+{
+	text-align: center;
+	
+}
